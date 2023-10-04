@@ -1,0 +1,374 @@
+h1{
+    color: brown;
+    background-color: azure;
+
+    
+}
+
+body{
+    color: brown;
+    background-color: azur
+}
+
+table {
+    color: rgb(6, 18, 14);
+   
+}
+
+
+.detel{
+    margin: 8%;
+    margin-top: 11%;
+}
+
+.detel a:hover{
+    background: #0ef;
+    box-shadow: 0 0 20px gold;
+}
+
+.detel h2{
+    font-size: 50px;
+    color: azure;
+    margin-bottom: 20%S;
+}
+
+.home-sci{
+    margin: 8%;
+    margin-top: 1%;
+}
+
+span{
+    color: orange;
+}
+
+.detel p{
+    color: #fef5f5;
+    line-height: 22px;
+}
+
+.detel a{
+    background:  #f9c3c3;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    margin: 30px ;
+    margin-top: 1%;
+    border-radius: 5px;
+}
+
+
+
+.images{
+    width: 35%;
+    height: 84%;
+    position:absolute;
+    bottom: 0;
+    right: 100px;
+}
+
+.images img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom 1s, left 1s;
+}
+
+.images:hover .shape-removebg-preview{
+    bottom: 10%;
+   
+}
+
+.images:hover .me1-removebg-preview{
+    left: 40%;
+}
+
+
+.skills_section{
+    width: 70%;
+    height: 60vh;
+    padding: 0px 13%;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.skills_head{
+    width: 80%;
+    margin-bottom: 10px;
+    color:ghostwhite;
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+.skills_head h2{
+    font-size: 30px;
+    margin-bottom: -3px;
+}
+.skills_head h2 span{
+    color:bisque;
+}
+.skills_main{
+    width: 100%;
+    display: grid;
+    color:  rgb(188, 245, 214);
+    grid-template-columns: repeat(2, 2fr);
+    grid-row-gap: 30px;
+    grid-column-gap: 50px;
+}
+.skills_main .skill_bar .info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:  0 10px;
+}
+.skill_bar .info p:nth-child(2){
+    font-weight: 500;
+}
+.skill_bar .bar{
+    width: 100%;
+    height: 10px;
+    background-color: rgb(233, 213, 213);
+    border-radius: 25px;
+    margin-top: 5px;
+    position: relative;
+}
+.skill_bar .bar span{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    background-color:rgb(239, 138, 121);
+    border-radius: 25px;
+}
+.skill_bar .bar .html{
+    width: 90%;
+    animation: html 5s;
+}
+@keyframes html {
+    0%{
+        width: 0%;
+    }100%{
+        width: 90%;
+    }
+}
+.skill_bar .bar .css{
+    width: 85%;
+    animation: css 6s;
+}
+@keyframes css {
+    0%{
+        width: 0%;
+    }100%{
+        width: 85%;
+    }
+}
+.skill_bar .bar .mysql{
+    width: 85%;
+    animation: mysql 6s;
+}
+@keyframes mysql {
+    0%{
+        width: 0%;
+    }100%{
+        width: 85%;
+    }
+}
+
+.skill_bar .bar .js{
+    width: 80%;
+    animation: js 6s;
+}
+@keyframes js {
+    0%{
+        width: 0%;
+    }100%{
+        width: 80%;
+    }
+}
+
+.skill_bar .bar .core{
+    width: 75%;
+    animation: core 6s;
+}
+@keyframes core {
+    0%{
+        width: 0%;
+    }100%{
+        width: 75%;
+    }
+}
+
+.skill_bar .bar .advance{
+    width: 65%;
+    animation: advance 6s;
+}
+@keyframes advance {
+    0%{
+        width: 0%;
+    }100%{
+        width: 65%;
+    }
+}
+
+
+
+.container{
+    position: relative;
+    width: 90%;
+    height: 80%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item{
+    width: 100%;
+    height: 500px;
+    max-width: 800px;
+    background: #fef5f5;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgb(0,0,0,.4);
+    overflow: hidden;
+    grid-template-columns: repeat(2,1fr);
+    display: grid;
+    z-index: 1000;
+}
+
+.contact{
+    background:#f5dbdb;
+}
+
+.submit-form{
+background: rgb(231, 191, 191);
+}
+
+.first-text{
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 36px;
+    color:black;
+}
+
+.gif{
+    height: 320px;
+}
+
+
+.social-media a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid rgb(97, 93, 93);
+    border-radius: 50%;
+    font-size: 20px;
+    color:rgb(65, 59, 20);
+    text-decoration: none;
+    margin: 30px 15px 30px 0;
+    
+
+}
+
+.social-media a:hover{
+    background: #0ef;
+    color: #02111b;
+    box-shadow: 0 0 20px gold;
+    
+
+}
+
+.btn-box{
+    display: inline-block;
+    padding: 12px 28px;
+    background:gold;
+    border-radius: 40px;
+    font-size: 16px;
+    color: #081b29;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+    
+}
+
+.third-text{
+    font-size: 25px;
+    position: relative;
+    top:0px;
+    left: 60px;
+    padding-top: 10px;
+    color: antiquewhite;
+}
+
+.form{
+    padding: 0 50px;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.input-box{
+    height: 40px;
+    width: 90px;
+    left: 30px;
+    margin: 30px 0;
+    position: relative;
+}
+.input{
+    height: 100%;
+    width: 300%;
+    background:transparent;
+    border-radius: 20px;
+    border: 2px solid #853838;
+    outline: none;
+    padding-left: 10px;
+    color: #f16464;
+    font-size: 16px;
+
+}
+.input-box label{
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    padding-left: 10px;
+    transform: translateY(-50%);
+    font-size: 15px;
+    font-weight: 500;
+    color: #762f2f;
+    transition: .3s ;
+}
+.input-box .input:focus ~ label,
+.input-box .input:valid ~ label{
+    top: -1px;
+    left: 10px;
+    background: #f3c9c9;
+    font-weight: 500;
+    font-size: 12px;
+    padding: 3px;
+}
+textarea.input{
+    resize: none;
+    min-height: 100px;
+    overflow: auto;
+}
+.btn{
+    position:relative;
+    left: 50px;
+    top: 60px;
+    background: rgb(232, 240, 240);
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    height: 35px;
+    width: 75px;
+    font-size: 16px;
+    color: #8b1414;
+    cursor:pointer;
+    font-weight: 500;
+}
+
+
+
